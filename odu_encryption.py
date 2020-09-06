@@ -81,8 +81,8 @@ if __name__ == '__main__':
     print('Encrypted message is: ' + repr(encrypted_message))
     print()
 
-    binary_encryped_message = ''.join(['{0:08b}'.format(ord(e), 'b') for e in encryperd_message])
-    print('Encrypted message in binary format is: ', binary_encryped_message)
+    binary_encrypted_message = ''.join(['{0:08b}'.format(ord(e), 'b') for e in encrypted_message])
+    print('Encrypted message in binary format is: ', binary_encrypted_message)
 
     print()
     print()
