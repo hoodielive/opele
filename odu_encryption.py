@@ -13,8 +13,10 @@ def generate_odu_characters():
 def cast_Opele(number_of_times):
     '''
     Function to simulate the casting of the Opele Chain.
+
     The Function ttakes one parameter: number of times to
     throw the Opele chain.
+
     This generates random characters from the 256 Odu
     '''
 
@@ -84,7 +86,6 @@ if __name__ == '__main__':
     binary_encrypted_message = ''.join(['{0:08b}'.format(ord(e), 'b') for e in encrypted_message])
     print('Encrypted message in binary format is: ', binary_encrypted_message)
 
-    print()
     print()
     print('Decrypting the message at the other end with the secret key..')
     print()
